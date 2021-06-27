@@ -1,0 +1,54 @@
+/*TEXTOS*/
+
+.logo{
+    padding: 1em;
+}
+
+h1,h2, h3{
+    font-family: 'Josefin Slab', serif;
+    
+}
+    
+h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+p { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(2, 2, 2);
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.3rem;
+    line-height: 140%;
+}
+
+a{
+    font-family: 'Josefin Slab', serif;
+    text-decoration: none;
+    font-size: 150%;
+    color: #fefae0;
+
+}
+
+.entry__tittle{
+    font-family: 'Kristi', cursive;
+}
+
+.mainBox__tittle{
+    font-size: 2.5rem;
+}
+
+.turismo__tittle{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+.mainBox__text{
+    padding-top:4rem;
+}
+}

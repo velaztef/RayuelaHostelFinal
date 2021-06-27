@@ -1,0 +1,78 @@
+
+.parallax {
+/* The image used */
+background-image: url(../mutimedia/parallaxgris.jpg);
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*textos*/
+
+.parallax__tittle{
+  color: white;
+  padding: 4rem;
+  font-weight: bold;
+
+}
+
+.parallax__text{
+    color: white;
+    text-align: center;
+}
+
+.justify-content-sm-center{
+    justify-content: center;
+}
+
+.parallax__containerText{
+  width: 100%;
+}
+
+ .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+ }
+
+.col-md-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+}
+
+//nosotrxs//
+
+.parallax__nosotros{
+  background-image: url(../mutimedia/saladeestarparallax.jpg);
+
+  /* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+//contacto//
+
+.parallax__contacto{
+  background-image: url(../mutimedia/contactoparallax.png);
+
+    /* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
